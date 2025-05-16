@@ -110,10 +110,3 @@ def get_camp_details():
 
         total_cost += TRANSPORT_COST 
 
- 
-
-     
-
-    difficulty_level = camps[chosen_camp]["difficulty"] 
-
- 
