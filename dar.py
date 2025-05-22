@@ -110,3 +110,48 @@ def get_camp_details():
 
         total_cost += TRANSPORT_COST 
 
+ 
+
+     
+
+    difficulty_level = camps[chosen_camp]["difficulty"] 
+
+ 
+
+ 
+
+    print("\n--- Registration Summary ---") 
+
+    print(f"Camper Name: {camper_name}") 
+
+    print(f"Camper Age: {camper_age}") 
+
+    print(f"Number of Days: {num_days}")  
+
+    print(f"Chosen Camp: {chosen_camp}") 
+
+    print(f"Difficulty Level: {difficulty_level}") 
+
+    print(f"Meal Choice: {meal_choice}") 
+
+    print(f"Transport Needed: {'Yes' if transport_needed else 'No'}") 
+
+    print(f"Total Cost: ${total_cost}") 
+
+    print(f"Attending: {'Yes' if is_attending else 'No'}") 
+
+ 
+
+     
+
+    if is_attending: 
+
+        print("\nDecision: The camper is confirmed to be attending.") 
+
+    else: 
+
+        print("\nDecision: The camper is not attending.") 
+
+ 
+
+get_camp_details() 
